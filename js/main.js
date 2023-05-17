@@ -4,7 +4,8 @@ createApp ({
     data() {
         return {
             API: `https://flynn.boolean.careers/exercises/api/random/mail`,
-            emails : []
+            emails : [],
+            async:false
         }
     },
     methods: {
